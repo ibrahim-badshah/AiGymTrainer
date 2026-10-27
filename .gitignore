@@ -1,4 +1,7 @@
 .env
-/__pycache__*
-.venv
-.streamlit
+venv/
+.vscode
+*.pyc*
+.streamlit/*
+!.streamlit/config.toml
+__pychache__/
