@@ -1,7 +1,19 @@
+# Environment variables
 .env
+.env.*
+
+# Python virtual environment
 venv/
-.vscode
-*.pyc*
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit files
 .streamlit/*
 !.streamlit/config.toml
-__pychache__/
