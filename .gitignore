@@ -1,14 +1,116 @@
-# Python
+# ==========================================
+# PYTHON
+# ==========================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 
-# Virtual environment
+# Python environments
 venv/
-.env/
+env/
+ENV/
+.venv/
+virtualenv/
 
-# OS files
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ==========================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# STREAMLIT
+# ==========================================
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Keep Streamlit config.toml tracked
+
+# ==========================================
+# DATABASES
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# MACHINE LEARNING / DATA
+# ==========================================
+.ipynb_checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.tflite
+*.weights
+
+# Model cache directories
+models/cache/
+model_cache/
+.cache/
+huggingface/
+wandb/
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ==========================================
+# IDE / EDITORS
+# ==========================================
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Database
-data.db
+# ==========================================
+# TESTING / COVERAGE
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# TYPE CHECKING / LINTING
+# ==========================================
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# ==========================================
+# JUPYTER
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# LOCAL DEVELOPMENT
+# ==========================================
+*.swp
+*.swo

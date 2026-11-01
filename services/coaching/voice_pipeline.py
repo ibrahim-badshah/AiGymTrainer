@@ -74,7 +74,7 @@ class VoicePipeline:
             if not issue:
                 return None
             
-            if now - self.last_spoken_at < 5:
+            if now - self.last_spoken_at < 7:
                 return None
             
         text = self.llm.give_feedback(event, issue)

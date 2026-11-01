@@ -210,7 +210,6 @@ def main():
 
     if isinstance(user_id,int):
         history_rows = get_users_exercises(user_id)
-
         arr = [
             {
                 "Exercise" : row["exercise_name"],
